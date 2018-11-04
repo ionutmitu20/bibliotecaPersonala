@@ -10,8 +10,60 @@
 	activitate.
 * My library - Google, Bookster, libib.
 
-### Interface
+### Interfata aplicatie
 
-<img src="Capture.PNG"
-     alt="Markdown Monster icon" />
+![alt text](https://github.com/ionutmitu20/bibliotecaPersonala/blob/master/docs/Capture.PNG)
+
+### API 
+
+* Exemplu request
+
+```
+    GET/BOOKS
+```
+
+* Exemplu response
+* 
+```
+    [
+     {
+        "category":"SF"
+        "title": "Star Trek"
+        "author":"James Blish"
+        "nr pages":"500"
+     }
+    ]
+```
+* Componente
+  
+
+    Categories list
+    Books list
+    Books search
+    Reading list
+    To read list
+    Favorites list
+
+
+* API calls
+
+```
+    GET/CATEGORIES
+    GET/CATEGORIES/:ID/BOOKS    
+    PUT/FAVORITE/:ID
+    PUT/TOREAD/:ID
+    GET/BOOKS/?SEARCH=
+    PUT/BOOKS/:ID/READING
+```
+
+* Actiunile utilizatorului
+
+```
+    1. View books in a category
+    2. Search book by name
+    3. Add book in To Read list or in Favorites
+    4. View Reading books
+```
+
+
 
