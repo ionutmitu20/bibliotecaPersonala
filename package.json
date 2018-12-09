@@ -1,0 +1,27 @@
+{
+  "name": "biblioteca_personala",
+  "version": "1.0.0",
+  "description": "### Introducere",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionutmitu20/bibliotecaPersonala.git"
+  },
+  "author": "ionut_mitu ioana_ivascu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ionutmitu20/bibliotecaPersonala/issues"
+  },
+  "homepage": "https://github.com/ionutmitu20/bibliotecaPersonala#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2"
+  }
+}
